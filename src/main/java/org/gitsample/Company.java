@@ -23,4 +23,11 @@ public class Company {
 	}
 	//Just a comment!
 	
+	@Override
+	public String toString() {
+		return "Company [name=" + name + ", address=" + address + "]";
+	}
+	
+	
+	
 }
